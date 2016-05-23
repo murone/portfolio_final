@@ -4,94 +4,54 @@
 	<meta charset="utf-8">
 	<title>Framework Test Page</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
 	<script src="js/jquery-1.12.3.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 </head>
 <body>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6"><img class="title-logo" src="http://placekitten.com/100/100" alt="Logo"></div>
-			<div class="col-md-6 text-right text-uppercase">
-				<h1 class="title-super text-thin">JANE DOETTE</h1>
+	<div class="my-container">
+		<header class="row header">
+			<div class="two-col header-halves"><span class="title-logo fa fa-suitcase"  aria-hidden="true"></span></div>
+			<div class="two-col header-halves text-right text-uppercase">
+				<h1 class="title-super text-thin">CHRIS MURONE</h1>
 				<h4 >FRONT-END NINJA</h4>
 			</div>
-		</div>
+		</header>
 		<div class="row">
-			<div class="col-md-12"><hr class="title-divider"></div>
+			<div class="one-col"><hr class="title-divider"></div>
 		</div>
+		<section class="row">
+			<div class="one-col hero">
+			</div>
+		</section>
 		<div class="row">
-			<div class="col-md-12"><img class="img-responsive" src="http://placekitten.com/1140/350" alt="Main Image"></div>
+			<div class="one-col text-muted"><h2>Featured Work</h2></div>
 		</div>
-		<div class="row">
-			<div class="col-md-12 text-muted"><h2>Featured Work</h2></div>
-		</div>
-		<div class="row text-center">
-			<div class="col-md-4">
-				<img class="projects img-responsive" data-toggle="modal" data-target="#appifyModal" src="http://placekitten.com/374/200" alt="Left Image">
-				<h3 class="project-name text-uppercase">Appify</h3>
-				<p class="project-links"> <a href="https://github.com/murone">https://github.com/murone</a></p>
-			</div>
-			<div  class="col-md-4">
-				<img class="projects img-responsive" data-toggle="modal" data-target="#sunflowerModal" src="http://placekitten.com/375/200" alt="Middle Image">
-				<h3 class="project-name text-uppercase">Sunflower</h3>
-				<p class="project-links"> <a href="https://github.com/murone">https://github.com/murone</a></p>
-			</div>
-			<div  class="col-md-4">
-				<img class="projects img-responsive" data-toggle="modal" data-target="#bokehModal" src="http://placekitten.com/376/200" alt="Right Image">
-				<h3 class="project-name text-uppercase">Bokeh</h3>
-				<p class="project-links"> <a href="https://github.com/murone">https://github.com/murone</a></p>
-			</div>
-		</div>
-	</div>
-	<div class="modal fade" id="appifyModal" tabindex="-1" role="dialog" aria-labelledby="appifyModal">
-	  <div class="modal-dialog" role="document">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h4 class="modal-title">Appify</h4>
-			</div>
-			<div class="modal-body text-block">
-				<img class="img-responsive" src="http://placekitten.com/555/300" alt="First modal image">
-				<p>This is a project. Paragraph here. Lorem ipsum blah blah blah. This is a project. Paragraph here. Lorem ipsum blah blah blah. This is a project. Paragraph here. Lorem ipsum blah blah blah. This is a project. Paragraph here. Lorem ipsum blah blah blah. This is a project. Paragraph here. Lorem ipsum blah blah blah.</p>
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			</div>
-		</div>
-	  </div>
-	</div>
-	<div class="modal fade" id="sunflowerModal" tabindex="-2" role="dialog" aria-labelledby="sunflowerModal">
-	  <div class="modal-dialog" role="document">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h4 class="modal-title">Sunflower</h4>
-			</div>
-			<div class="modal-body text-block">
-				<img class="img-responsive" src="http://placekitten.com/555/300" alt="Second modal image">
-				<p>This is a project. Paragraph here. Lorem ipsum blah blah blah. This is a project. Paragraph here. Lorem ipsum blah blah blah. This is a project. Paragraph here. Lorem ipsum blah blah blah. This is a project. Paragraph here. Lorem ipsum blah blah blah. This is a project. Paragraph here. Lorem ipsum blah blah blah.</p>
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			</div>
-		</div>
-	  </div>
-	</div>
-	<div class="modal fade" id="bokehModal" tabindex="-3" role="dialog" aria-labelledby="bokehModal">
-	  <div class="modal-dialog" role="document">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h4 class="modal-title">Bokeh</h4>
-			</div>
-			<div class="modal-body text-block">
-				<img class="img-responsive" src="http://placekitten.com/555/300" alt="Third modal image">
-				<p>This is a project. Paragraph here. Lorem ipsum blah blah blah. This is a project. Paragraph here. Lorem ipsum blah blah blah. This is a project. Paragraph here. Lorem ipsum blah blah blah. This is a project. Paragraph here. Lorem ipsum blah blah blah. This is a project. Paragraph here. Lorem ipsum blah blah blah.</p>
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			</div>
-		</div>
-	  </div>
+		<section class="row text-center">
+			<article class="three-col">
+				<div class="project">
+					<div class="img-bt project-img"></div>
+					<h3 class="project-name text-uppercase">Brighton Times</h3>
+					<p class="project-links"> <a href="https://github.com/murone/brighton_times">https://github.com/murone/brighton_times</a></p>
+				</div>
+			</article>
+			<article class="three-col">
+				<div class="project">
+					<div class="img-rb project-img"></div>
+					<h3 class="project-name text-uppercase">Responsive Blog</h3>
+					<p class="project-links"> <a href="https://github.com/murone/responsive_blog">https://github.com/murone/responsive_blog</a></p>
+				</div>
+			</article>
+			<article class="three-col">
+				<div class="project">
+					<div class="img-bt project-img"></div>
+					<h3 class="project-name text-uppercase">Bokeh</h3>
+					<p class="project-links"> <a href="https://github.com/murone">https://github.com/murone</a></p>
+				</div>
+			</article>
+		</section>
 	</div>
 </body>
 </html>
