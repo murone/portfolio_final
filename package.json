@@ -1,0 +1,29 @@
+{
+  "name": "portfolio_final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murone/portfolio_final.git"
+  },
+  "author": "Chris Murone",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/murone/portfolio_final/issues"
+  },
+  "homepage": "https://github.com/murone/portfolio_final#readme",
+  "devDependencies": {
+    "grunt": ">=0.4.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-mkdir": "^1.0.0",
+    "grunt-responsive-images": "^0.1.8"
+  },
+  "dependencies": {
+    "imager.js": "^0.5.0"
+  }
+}
